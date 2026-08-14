@@ -22,8 +22,8 @@ There are two fundamentally different kinds of content in a data pack, and Cobbl
 The imperative half of the language.
 
 - [ ] **Variables**
-  - [ ] Int type (scoreboard-backed)
-  - [ ] Float type (storage/NBT-backed)
+  - [ ] Int types (u8, u16, 8, 16, 32, 64)
+  - [ ] Float type (32, 64)
   - [ ] Bool type
   - [ ] String type
   - [ ] Array/list type
