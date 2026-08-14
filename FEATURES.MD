@@ -4,8 +4,6 @@ A scripting language that compiles to Minecraft Java Edition data packs.
 
 **Baseline target:** Minecraft Java Edition 26.2 (pack format 107.1), with the intent to support future updates as they release.
 
-Checkboxes track implementation status (`- [x]` = implemented).
-
 ---
 
 ## Scope
