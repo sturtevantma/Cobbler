@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="iL5nO_9sRQvPnsS26jko">
+    <mxGraphModel dx="1180" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lexer&lt;/h1&gt;&lt;div&gt;The Lexer takes a file (one at a time) as a single string and turns it into a token stream.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-9" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lw0fuYeo649hrPVGhxsl-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="Lexer" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-32" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Lw0fuYeo649hrPVGhxsl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-11" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-15" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;At end of String?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="325" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TRUE" vertex="1">
+          <mxGeometry height="30" width="60" x="405" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="Return tokens" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="FALSE" vertex="1">
+          <mxGeometry height="20" width="50" x="370" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-20" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lw0fuYeo649hrPVGhxsl-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-17" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For each REGEX pattern, look for match add all matches to vec&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="305" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-29" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lw0fuYeo649hrPVGhxsl-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-37" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;match?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="325" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-26" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Lw0fuYeo649hrPVGhxsl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Advance current by token lexeme length&lt;div&gt;Update Col/Line&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-30" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Lw0fuYeo649hrPVGhxsl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add longest match to tokens w/&lt;div&gt;{line, col, TokenType, lexeme}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TRUE" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-38" edge="1" parent="1" source="Lw0fuYeo649hrPVGhxsl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Lw0fuYeo649hrPVGhxsl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add error token to list with length 1" vertex="1">
+          <mxGeometry height="60" width="120" x="155" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Lw0fuYeo649hrPVGhxsl-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="FALSE" vertex="1">
+          <mxGeometry height="20" width="50" x="290" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
